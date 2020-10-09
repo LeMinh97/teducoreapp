@@ -14,6 +14,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using TeduCoreApp.Data.EF;
 using TeduCoreApp.Data.Entities;
+using TeduCoreApp.Application.AutoMapper;
+using AutoMapper;
 
 namespace TeduCoreApp
 {
@@ -42,6 +44,9 @@ namespace TeduCoreApp
             services.AddScoped<UserManager<AppUser>, UserManager<AppUser>>();
             services.AddScoped<RoleManager<AppRole>, RoleManager<AppRole>>();
 
+            services.AddAutoMapper(typeof(Startup));
+
+            AutoMapperConfig.RegisterMappings();
             //services.AddTransient<IEmailSender, EmailSender>();
             services.AddTransient<DbInitializer>();
             services.AddMvc();
