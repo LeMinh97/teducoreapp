@@ -1,4 +1,6 @@
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data.EF\bin\Debug\netcoreapp3.1\TeduCoreApp.Data.EF.deps.json
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data.EF\bin\Debug\netcoreapp3.1\TeduCoreApp.Data.EF.runtimeconfig.json
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data.EF\bin\Debug\netcoreapp3.1\TeduCoreApp.Data.EF.runtimeconfig.dev.json
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data.EF\bin\Debug\netcoreapp3.1\TeduCoreApp.Data.EF.dll
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data.EF\bin\Debug\netcoreapp3.1\TeduCoreApp.Data.EF.pdb
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data.EF\bin\Debug\netcoreapp3.1\TeduCoreApp.Data.dll
@@ -14,3 +16,4 @@ D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data.EF\obj\Debug\netcoreap
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data.EF\obj\Debug\netcoreapp3.1\TeduCoreApp.Data.EF.csproj.CopyComplete
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data.EF\obj\Debug\netcoreapp3.1\TeduCoreApp.Data.EF.dll
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data.EF\obj\Debug\netcoreapp3.1\TeduCoreApp.Data.EF.pdb
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data.EF\obj\Debug\netcoreapp3.1\TeduCoreApp.Data.EF.genruntimeconfig.cache

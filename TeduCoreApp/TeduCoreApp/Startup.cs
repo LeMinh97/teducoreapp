@@ -20,6 +20,7 @@ using TeduCoreApp.Application.Interfaces;
 using TeduCoreApp.Data.IRepositories;
 using TeduCoreApp.Data.EF.Repositories;
 using TeduCoreApp.Application.Implementation;
+using TeduCoreApp.Services;
 
 namespace TeduCoreApp
 {
@@ -48,10 +49,28 @@ namespace TeduCoreApp
             services.AddScoped<UserManager<AppUser>, UserManager<AppUser>>();
             services.AddScoped<RoleManager<AppRole>, RoleManager<AppRole>>();
 
+            // Configure Identity
+            services.Configure<IdentityOptions>(options =>
+            {
+                // Password settings
+                options.Password.RequireDigit = true;
+                options.Password.RequiredLength = 6;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireLowercase = false;
+
+                // Lockout settings
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(30);
+                options.Lockout.MaxFailedAccessAttempts = 10;
+
+                // User settings
+                options.User.RequireUniqueEmail = true;
+            });
+
             services.AddAutoMapper(typeof(Startup));
 
             AutoMapperConfig.RegisterMappings();
-            //services.AddTransient<IEmailSender, EmailSender>();
+            services.AddTransient<IEmailSender, EmailSender>();
             services.AddTransient<DbInitializer>();
 
             services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
@@ -88,7 +107,6 @@ namespace TeduCoreApp
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
-            dbInitializer.Seed().Wait();
         }
     }
 }

@@ -52,7 +52,6 @@ namespace TeduCoreApp.Data.Entities
         public DateTime DateModified { set; get; }
         public string SeoPageTitle { set; get; }
 
-        [Column(TypeName ="varchar")]
         [StringLength(255)]
         public string SeoAlias { set; get; }
 
