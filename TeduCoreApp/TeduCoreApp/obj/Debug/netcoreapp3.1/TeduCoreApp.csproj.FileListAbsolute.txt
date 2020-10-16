@@ -162,7 +162,7 @@ D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Ted
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\TeduCoreApp.TagHelpers.input.cache
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\TeduCoreApp.TagHelpers.output.cache
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\TeduCoreApp.RazorCoreGenerate.cache
-D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\ExternalLogin.cshtml.g.cs

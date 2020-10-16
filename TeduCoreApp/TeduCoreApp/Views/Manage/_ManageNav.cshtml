@@ -1,5 +1,5 @@
-﻿
-@using TeduCoreApp.Views.Manage
+﻿@using TeduCoreApp.Views.Manage
+@using Microsoft.AspNetCore.Identity
 @inject SignInManager<AppUser> SignInManager
 @{
     var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();

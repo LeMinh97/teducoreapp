@@ -21,6 +21,7 @@ using TeduCoreApp.Data.IRepositories;
 using TeduCoreApp.Data.EF.Repositories;
 using TeduCoreApp.Application.Implementation;
 using TeduCoreApp.Services;
+using TeduCoreApp.Infrastructure.Interfaces;
 
 namespace TeduCoreApp
 {
@@ -67,12 +68,18 @@ namespace TeduCoreApp
                 options.User.RequireUniqueEmail = true;
             });
 
-            services.AddAutoMapper(typeof(Startup));
+            //services.AddAutoMapper(typeof(Startup));
+            //AutoMapperConfig.RegisterMappings();
 
-            AutoMapperConfig.RegisterMappings();
+            services.AddSingleton(AutoMapperConfig.RegisterMappings().CreateMapper());
+
             services.AddTransient<IEmailSender, EmailSender>();
+
             services.AddTransient<DbInitializer>();
 
+            services.AddTransient(typeof(IUnitOfWork), typeof(EFUnitOfWork));
+            services.AddTransient(typeof(IRepository<,>), typeof(EFRepository<,>));
+            //Serrvices
             services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
             services.AddTransient<IProductCategoryService, ProductCategoryService>();
             services.AddMvc();
@@ -98,13 +105,18 @@ namespace TeduCoreApp
             app.UseRouting();
 
             app.UseAuthentication();
-            app.UseAuthorization();
+            //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapControllerRoute(
+                    name: "areaRoute",
+                    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
                 endpoints.MapRazorPages();
             });
         }
