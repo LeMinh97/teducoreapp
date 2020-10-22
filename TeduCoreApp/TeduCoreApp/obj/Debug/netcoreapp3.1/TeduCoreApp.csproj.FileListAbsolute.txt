@@ -1,5 +1,6 @@
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\appsettings.json
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\libman.json
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
@@ -163,6 +164,12 @@ D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Ted
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\TeduCoreApp.TagHelpers.output.cache
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\TeduCoreApp.RazorCoreGenerate.cache
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\Error.cshtml.g.cs
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\ExternalLogin.cshtml.g.cs
