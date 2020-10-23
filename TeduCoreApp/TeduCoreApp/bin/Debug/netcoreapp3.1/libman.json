@@ -51,6 +51,21 @@
     {
       "library": "nprogress@0.2.0",
       "destination": "wwwroot/lib/nprogress/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "notify@0.4.2",
+      "destination": "wwwroot/lib/notifyjs/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "bootbox.js@5.4.1",
+      "destination": "wwwroot/lib/bootbox/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "animate.css@4.1.1",
+      "destination": "wwwroot/lib/animate.css/"
     }
   ]
 }

@@ -71,6 +71,13 @@ D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\Mic
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\Serilog.dll
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.File.dll
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\Serilog.Sinks.Async.dll
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
@@ -164,6 +171,7 @@ D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Ted
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\TeduCoreApp.TagHelpers.output.cache
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\TeduCoreApp.RazorCoreGenerate.cache
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Login\Index.cshtml.g.cs
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\Error.cshtml.g.cs
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
 D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_LoginPartial.cshtml.g.cs

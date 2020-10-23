@@ -439,6 +439,10 @@
             "Microsoft.Web.LibraryManager.Build": {
               "target": "Package",
               "version": "[2.1.113, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             }
           },
           "imports": [

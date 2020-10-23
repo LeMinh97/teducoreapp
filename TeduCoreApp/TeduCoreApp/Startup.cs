@@ -22,6 +22,10 @@ using TeduCoreApp.Data.EF.Repositories;
 using TeduCoreApp.Application.Implementation;
 using TeduCoreApp.Services;
 using TeduCoreApp.Infrastructure.Interfaces;
+using Microsoft.Extensions.Logging;
+using Newtonsoft.Json.Serialization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Razor;
 
 namespace TeduCoreApp
 {
@@ -82,30 +86,56 @@ namespace TeduCoreApp
             //Serrvices
             services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
             services.AddTransient<IProductCategoryService, ProductCategoryService>();
-            services.AddMvc();
+            //services.AddMvc().AddJsonOptions(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver());
+            services.AddControllersWithViews(options =>
+            {
+                options.CacheProfiles.Add("Default",
+                    new CacheProfile()
+                    {
+                        Duration = 60
+                    });
+                options.CacheProfiles.Add("Never",
+                    new CacheProfile()
+                    {
+                        Location = ResponseCacheLocation.None,
+                        NoStore = true
+                    });
+            })
+                .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix,
+                        opts => { opts.ResourcesPath = "Resources"; }
+                    )
+                .AddDataAnnotationsLocalization()
+                .AddJsonOptions(options =>
+                {
+                    options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
+                    options.JsonSerializerOptions.PropertyNamingPolicy = null;
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, DbInitializer dbInitializer)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, DbInitializer dbInitializer, ILoggerFactory loggerFactory)
         {
-            if (env.IsDevelopment())
+            loggerFactory.AddFile("Logs/tedu-{Date}.txt");
+            if (env.EnvironmentName == Environments.Development)
             {
                 app.UseDeveloperExceptionPage();
-                app.UseDatabaseErrorPage();
+                //app.UseDatabaseErrorPage();
             }
             else
             {
                 app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
+                //app.UseHsts();
             }
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseCors("CorsPolicy");
 
             app.UseAuthentication();
-            //app.UseAuthorization();
+            app.UseAuthorization();
+            //app.UseSession();
 
             app.UseEndpoints(endpoints =>
             {
@@ -117,7 +147,7 @@ namespace TeduCoreApp
                     name: "areaRoute",
                     pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
-                endpoints.MapRazorPages();
+                //endpoints.MapRazorPages();
             });
         }
     }

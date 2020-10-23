@@ -61,6 +61,11 @@
       "provider": "cdnjs",
       "library": "bootbox.js@5.4.1",
       "destination": "wwwroot/lib/bootbox/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "animate.css@4.1.1",
+      "destination": "wwwroot/lib/animate.css/"
     }
   ]
 }
