@@ -1,0 +1,15 @@
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data\bin\Debug\netcoreapp3.1\TeduCoreApp.Data.deps.json
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data\bin\Debug\netcoreapp3.1\TeduCoreApp.Data.runtimeconfig.json
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data\bin\Debug\netcoreapp3.1\TeduCoreApp.Data.runtimeconfig.dev.json
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data\bin\Debug\netcoreapp3.1\TeduCoreApp.Data.dll
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data\bin\Debug\netcoreapp3.1\TeduCoreApp.Data.pdb
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data\bin\Debug\netcoreapp3.1\TeduCoreApp.Infrastructure.dll
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data\bin\Debug\netcoreapp3.1\TeduCoreApp.Infrastructure.pdb
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data\obj\Debug\netcoreapp3.1\TeduCoreApp.Data.csprojAssemblyReference.cache
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data\obj\Debug\netcoreapp3.1\TeduCoreApp.Data.AssemblyInfoInputs.cache
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data\obj\Debug\netcoreapp3.1\TeduCoreApp.Data.AssemblyInfo.cs
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data\obj\Debug\netcoreapp3.1\TeduCoreApp.Data.csproj.CoreCompileInputs.cache
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data\obj\Debug\netcoreapp3.1\TeduCoreApp.Data.csproj.CopyComplete
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data\obj\Debug\netcoreapp3.1\TeduCoreApp.Data.dll
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data\obj\Debug\netcoreapp3.1\TeduCoreApp.Data.pdb
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Data\obj\Debug\netcoreapp3.1\TeduCoreApp.Data.genruntimeconfig.cache

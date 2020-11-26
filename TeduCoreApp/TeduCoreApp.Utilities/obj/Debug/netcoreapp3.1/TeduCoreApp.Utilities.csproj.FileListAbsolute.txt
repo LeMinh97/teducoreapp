@@ -1,0 +1,9 @@
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Utilities\bin\Debug\netcoreapp3.1\TeduCoreApp.Utilities.deps.json
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Utilities\bin\Debug\netcoreapp3.1\TeduCoreApp.Utilities.dll
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Utilities\bin\Debug\netcoreapp3.1\TeduCoreApp.Utilities.pdb
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Utilities\obj\Debug\netcoreapp3.1\TeduCoreApp.Utilities.csprojAssemblyReference.cache
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Utilities\obj\Debug\netcoreapp3.1\TeduCoreApp.Utilities.AssemblyInfoInputs.cache
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Utilities\obj\Debug\netcoreapp3.1\TeduCoreApp.Utilities.AssemblyInfo.cs
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Utilities\obj\Debug\netcoreapp3.1\TeduCoreApp.Utilities.csproj.CoreCompileInputs.cache
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Utilities\obj\Debug\netcoreapp3.1\TeduCoreApp.Utilities.dll
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Utilities\obj\Debug\netcoreapp3.1\TeduCoreApp.Utilities.pdb

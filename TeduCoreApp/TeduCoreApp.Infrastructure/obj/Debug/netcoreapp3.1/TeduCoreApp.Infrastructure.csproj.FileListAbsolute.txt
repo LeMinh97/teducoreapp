@@ -1,0 +1,9 @@
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Infrastructure\bin\Debug\netcoreapp3.1\TeduCoreApp.Infrastructure.deps.json
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Infrastructure\bin\Debug\netcoreapp3.1\TeduCoreApp.Infrastructure.dll
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Infrastructure\bin\Debug\netcoreapp3.1\TeduCoreApp.Infrastructure.pdb
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Infrastructure\obj\Debug\netcoreapp3.1\TeduCoreApp.Infrastructure.csprojAssemblyReference.cache
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Infrastructure\obj\Debug\netcoreapp3.1\TeduCoreApp.Infrastructure.AssemblyInfoInputs.cache
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Infrastructure\obj\Debug\netcoreapp3.1\TeduCoreApp.Infrastructure.AssemblyInfo.cs
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Infrastructure\obj\Debug\netcoreapp3.1\TeduCoreApp.Infrastructure.csproj.CoreCompileInputs.cache
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Infrastructure\obj\Debug\netcoreapp3.1\TeduCoreApp.Infrastructure.dll
+D:\.NET core Exp\teducoreapp\TeduCoreApp\TeduCoreApp.Infrastructure\obj\Debug\netcoreapp3.1\TeduCoreApp.Infrastructure.pdb
